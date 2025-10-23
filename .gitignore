@@ -1,0 +1,183 @@
+# ================================================================================
+# Java Inventory Management System - Git Ignore File
+# ================================================================================
+
+# ==================== Compiled Java Classes ====================
+*.class
+bin/
+build/
+target/
+out/
+
+# ==================== Java Package Files ====================
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ==================== Exception: Keep MySQL Connector ====================
+!mysql-connector-j-*.jar
+
+# ==================== IDE Files ====================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ==================== Operating System Files ====================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ==================== Logs and Temporary Files ====================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~.nib
+*.bak
+*.old
+
+# Application logs
+logs/
+*.log.*
+
+# ==================== Database Files ====================
+*.sql~
+*.db
+*.sqlite
+*.sqlite3
+
+# Keep setup scripts
+!setup_database.sql
+!stationary_products.sql
+!supermarket_products.sql
+
+# ==================== Configuration Files with Sensitive Data ====================
+# Uncomment if config contains passwords/secrets
+config.properties
+
+# ==================== Generated Reports ====================
+Reports/*.txt
+Reports/*.pdf
+!Reports/.gitkeep
+
+# ==================== Build and Compilation Artifacts ====================
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ==================== Maven ====================
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ==================== Gradle ====================
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# ==================== Package Files ====================
+node_modules/
+jspm_packages/
+
+# ==================== Virtual Environment (if Python tools used) ====================
+venv/
+ENV/
+env/
+
+# ==================== Documentation Build Files ====================
+*.aux
+*.out
+*.toc
+
+# ==================== Test Coverage ====================
+coverage/
+*.cover
+.coverage
+.coverage.*
+htmlcov/
+
+# ==================== Temp Template Files ====================
+PPT_TEMPLATE.txt
+*_TEMPLATE.txt
+temp_*.txt
+
+# ==================== Backup Files ====================
+*.backup
+*.bkp
+
+# ==================== Java Profiling ====================
+*.hprof
+hs_err_pid*
+replay_pid*
+
+# ==================== Lock Files ====================
+*.lock
+.~lock.*
+
+# ==================== Personal Notes (if any) ====================
+notes.txt
+todo.txt
+personal/
+
+# ==================== Keep Important Documentation ====================
+!README.md
+!HOW_TO_RUN.md
+!LICENSE
+!CONTRIBUTING.md
+!CHANGELOG.md
+
+# ==================== End of .gitignore ====================

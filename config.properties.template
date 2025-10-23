@@ -1,0 +1,39 @@
+# ================================================================================
+# Inventory Management System - Database Configuration Template
+# ================================================================================
+# 
+# INSTRUCTIONS:
+# 1. Copy this file and rename it to: config.properties
+# 2. Replace the placeholder values with your actual database credentials
+# 3. Make sure config.properties is in .gitignore (DO NOT commit real credentials!)
+#
+# ================================================================================
+
+# Database Connection URL
+# Format: jdbc:mysql://[host]:[port]/[database_name]
+# Default MySQL port is 3306
+db.url=jdbc:mysql://localhost:3306/inventory_db
+
+# Database Username
+# Replace 'your_username' with your MySQL username
+db.username=your_username
+
+# Database Password
+# Replace 'your_password' with your MySQL password
+db.password=your_password
+
+# ================================================================================
+# NOTES:
+# ================================================================================
+# 
+# - Default database name: inventory_db
+# - Make sure MySQL service is running before starting the application
+# - To test connection, run: test-db.bat
+# - After setup, run: compile-and-run.bat
+#
+# For first-time setup:
+# 1. Create database: mysql -u root -p < setup_database.sql
+# 2. Configure this file with your credentials
+# 3. Run the application: compile-and-run.bat
+#
+# ================================================================================
