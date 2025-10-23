@@ -15,6 +15,15 @@ A full-featured desktop application for managing inventory with Java Swing GUI a
 - **Database Integration**: MySQL backend with CRUD operations
 - **Modern GUI**: Java Swing with system look-and-feel
 
+## Screenshot
+
+<img width="507" height="321" alt="image" src="https://github.com/user-attachments/assets/f3479fd8-eca8-48e8-91bf-3457e8b8a2de" />
+User Login Panel
+
+
+<img width="1483" height="872" alt="image" src="https://github.com/user-attachments/assets/b10b4901-71ea-459e-9bcc-48267b8934f6" />
+Main Panel
+
 ## 📋 Requirements
 
 - **Java**: JDK 21 (LTS) or higher
