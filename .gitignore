@@ -181,3 +181,5 @@ personal/
 !CHANGELOG.md
 
 # ==================== End of .gitignore ====================
+scripts/grant-asus-access.sql
+scripts/setup_presentation_db.sql
